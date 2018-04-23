@@ -331,3 +331,32 @@ body.mceContentBody {
   border-width: 1px;
   border-style: solid;
 }
+
+/*---------- Logo colors -------------*/
+#svg-card-1 use{
+ fill: $primary;
+}
+
+#svg-card-2 use{
+ fill: $white;
+}
+
+#svg-card-3 use{
+ fill: $primary;
+}
+
+#svg-card-4 use{
+ fill: $white;
+}
+
+/*---------- Logo alignment -------------*/
+
+.top_svg_logo_container svg {
+  max-height: 64px;
+  max-width: 64px;
+  margin-right: 5px;
+}
+
+.top_svg_logo_container {
+  float: left;
+}
